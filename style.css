@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.projects img {
+    width: 200px;
+    height: 120px;
+    margin: 10px;
+    border: 2px solid #333;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.dark-mode-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.resource-box {
+    border: 2px solid #333;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #f0f0f0;
+}
+
+#skillsList {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#skillsList li {
+    margin-bottom: 5px;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode header {
+    background-color: black;
+}
+
+.dark-mode nav {
+    background-color: #333;
+}
+
+.dark-mode section {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode .resource-box {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode a {
+    color: #87CEFA;
+}
